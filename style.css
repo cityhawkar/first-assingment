@@ -15,23 +15,26 @@ body{
 .container h1{
     color: #fff;
     text-align: center;
-    font-size: 60px;
-    padding: 30px;
+    font-size: 50px;
     margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+
 }
 .container p{
     color: #fff;
     text-align: center;
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
 }
 .button{
     text-align: center;
-    margin-left: 570px;
-    margin-right: 570px;
+    margin-left: 550px;
+    margin-right: 550px;
     padding: 20px;
     background-color:orangered;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 100px;
     font-size: 15px;
 }
@@ -42,7 +45,10 @@ body{
 
 .container-tow{
     text-align: center;
-    font-size: 20px;
+
+}
+.container-tow h1{
+    font-size: 40px;
 }
 .list-container{
     margin-top: 100px;
@@ -64,8 +70,10 @@ ul li{
 }
 .plan{
     text-align: center;
-    font-size: 20px;
     margin: 70px;
+}
+.plan h1{
+    font-size: 40px;
 }
 
 .donate-plan{
@@ -94,4 +102,87 @@ ul li{
     padding: 30px;
     background-color: cadetblue;
     border-radius: 10px;
+}
+#photos{
+    display: flex;
+   
+}
+.left-site{
+    width: 50%;
+    padding: 50px;
+    
+}
+.right-site{
+    width: 50%;
+  margin: 50px;
+}
+.left-site h1{
+    font-size: 50px;
+}
+#photos-tow{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.left-last{
+    width: 50%;
+    padding: 50px;
+    
+    
+}
+.right-last{
+    width: 50%;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.left-last h1{
+    font-size: 50px;
+}
+.contribute-button{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    width: 30%;
+    background-color: coral;
+    border-radius: 10px;
+}
+.finished{
+    background-color: bisque;
+    line-height: 180px;
+    margin-left: 190px;
+    margin-right: 190px;
+    text-align: center;
+    margin-top: 60px;
+}
+.finished input{
+    padding: 15px;
+    text-align: left;
+    background-color: darkgray;
+    border: none;
+    width: 200px;
+    border-radius: 2px;
+}
+.finished button{
+    padding: 15px;
+  background-color: crimson;
+  border: none;
+  border-radius: 2px;
+  width: 150px;
+  color: #fff;
+}
+.finished-one{
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 30px;
+    padding: 30px;
+}
+footer{
+    line-height: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    
 }
